@@ -1,7 +1,7 @@
 # qctrl_backend
 My submission for the Q-CTRL Back-end Engineering challenge
 
-### Requirements
+## Requirements
 
 Create a RESTful API using [Django](https://www.djangoproject.com/). The API should be backed by a [PostgreSQL](https://www.postgresql.org/) database, conform to the [JSON:API](https://jsonapi.org/) specification and should implement endpoints that provide the following functionality:
 
@@ -13,7 +13,7 @@ Create a RESTful API using [Django](https://www.djangoproject.com/). The API sho
 1. Bulk upload controls in CSV format
 1. Download controls in CSV format
 
-### Prerequisites
+## Prerequisites
 
 If you have not already, please install [Docker](https://docs.docker.com/v17.12/install/) and [PostgreSQL](https://www.postgresql.org/download/). Also, to easily create our python virtual environment we will use the virtualenv package.
 
@@ -22,10 +22,10 @@ If you have not already, please install [Docker](https://docs.docker.com/v17.12/
 pip install virtualenv
 ```
 
-### Usage
+## Usage
 
 
-#### Installation
+### Installation
 Firstly, lets clone the repository into a folder on our computer.
 
 ```bash
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 ```
 
 
-#### Setup
+### Setup
 Lets set up our Docker container. Make sure that both Docker and PostgreSQL are running.
 
 ```bash
@@ -94,7 +94,7 @@ python manage.py migrate
 ```
 
 
-####Running
+### Running
 
 Now that we have set up everything that we need, we can run our Django API.
 
