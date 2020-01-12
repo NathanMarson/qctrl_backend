@@ -1,0 +1,12 @@
+version: '2'
+services:
+  db:
+    image: postgres:12.1
+    environment:
+      - POSTGRES_USER:user
+      - POSTGRES_PASSWORD:password
+      - POSTGRES_DB:controls
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./docker/postgresql/data:/var/lib/postgresql/data
